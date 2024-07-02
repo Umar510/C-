@@ -1,0 +1,21 @@
+Run-Time Polymorphism using
+
+1- Function Overriding (Virtual Function)
+
+Virtual function helps us to call correct function in function overriding (Dynamic Polymorphism).
+
+Function Overloading
+Function Overriding 
+Operator Overloading
+Virtual Function
+Pure virtual function: 
+Abstract Classes: A class is abstract if it has at least one pure virtual function.
+
+
+Abstraction is the method of hiding the unwanted information. Whereas encapsulation is a method to hide the data in 
+a single entity or unit along with a method to protect information from outside. We can implement abstraction using 
+abstract class and interfaces.
+
+Virtual functions are invoked when you have a pointer or reference to an instance of a class.(Upcasting)
+
+A class is abstract if it has at least one pure virtual function. 
