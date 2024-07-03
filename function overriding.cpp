@@ -58,7 +58,7 @@ int main()
 {
 	Parent* ptr;	
 	Child child;
-	ptr=&child;
+	 ptr=&child;
 	ptr->GeeksforGeeks_Print(); // CHILD class method called/overridden as Virtual method/function declared in PARENT class
 
 

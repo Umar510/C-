@@ -17,13 +17,20 @@ void deleteValue(int arr[], int &size, int index)
     for (int i = index; i < size - 1; ++i)
     {
         arr[i] = arr[i + 1];
-        
+
         // cout<<"VALUE shifted: "<<arr[i]<<endl;
     }
     // Decrease the size of the array
     size--;
     // Output the deleted value
-    cout << "Deleted value: " << deletedValue << endl;
+    cout << "Deleted value is " << deletedValue << " found at position " << index + 1 << " & Index is " << index << endl;
+    // Output the array after deletion
+    cout << "Array after deletion: ";
+    for (int i = 0; i < size; ++i)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 }
 
 int main()
@@ -36,23 +43,20 @@ int main()
     }
     cout << endl;
     cout << "which value you want to delelte" << endl;
-    int Val, indexToDelete;
+    int Val, indexToDelete = -1;
     cin >> Val;
     for (int i = 0; i < size; ++i)
     {
         if (Val == arr[i])
+        {
             indexToDelete = i;
+            deleteValue(arr, size, indexToDelete);
+        }
     }
-
-    deleteValue(arr, size, indexToDelete);
-
-    // Output the array after deletion
-    cout << "Array after deletion: ";
-    for (int i = 0; i < size; ++i)
+    if (indexToDelete == -1)
     {
-        cout << arr[i] << " ";
+        cout << "Value not found" << endl;
+        main();
     }
-    cout << endl;
-
     return 0;
 }

@@ -15,10 +15,11 @@ int main()
         }
         else
         {
-            if (c > b)
-            {
-                cout << "line-20 Largest number is  : " << c << endl;
-            }
+            cout << "line-20 Largest number is  : " << c << endl;
+            // if (c > b)
+            // {
+            // cout << "line-20 Largest number is  : " << c << endl;
+            // }
         }
     }
     else
@@ -29,10 +30,11 @@ int main()
         }
         else
         {
-            if (c > a)
-            {
-                cout << "line-34 Largest number is  : " << c << endl;
-            }
+            cout << "line-34 Largest number is  : " << c << endl;
+            // if (c > a)
+            // {
+            // cout << "line-34 Largest number is  : " << c << endl;
+            // }
         }
     }
     // else if (b > c)
