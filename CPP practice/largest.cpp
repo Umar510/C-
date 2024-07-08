@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
     int a, b, c;
@@ -11,11 +10,11 @@ int main()
     {
         if (a > c)
         {
-            cout << "line-14 Largest number is  : " << a << endl;
+            cout << "line-13 Largest number is  : " << a << endl;
         }
         else
         {
-            cout << "line-20 Largest number is  : " << c << endl;
+            cout << "line-17 Largest number is  : " << c << endl;
             // if (c > b)
             // {
             // cout << "line-20 Largest number is  : " << c << endl;
@@ -26,11 +25,11 @@ int main()
     {
         if (b > c)
         {
-            cout << "line-26 Largest number is  : " << b << endl;
+            cout << "line-28 Largest number is  : " << b << endl;
         }
         else
         {
-            cout << "line-34 Largest number is  : " << c << endl;
+            cout << "line-32 Largest number is  : " << c << endl;
             // if (c > a)
             // {
             // cout << "line-34 Largest number is  : " << c << endl;

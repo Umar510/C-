@@ -9,7 +9,6 @@ void deleteValue(int arr[], int &size, int index)
         cout << "Invalid index" << endl;
         return;
     }
-
     // Store the value to be deleted
     int deletedValue = arr[index];
 
@@ -23,7 +22,7 @@ void deleteValue(int arr[], int &size, int index)
     // Decrease the size of the array
     size--;
     // Output the deleted value
-    cout << "Deleted value is " << deletedValue << " found at position " << index + 1 << " & Index is " << index << endl;
+    cout << "Deleted value is " << deletedValue << " found at position " << index + 1 << " & Index " << index << endl;
     // Output the array after deletion
     cout << "Array after deletion: ";
     for (int i = 0; i < size; ++i)
