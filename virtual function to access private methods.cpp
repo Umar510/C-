@@ -5,18 +5,20 @@ using namespace std;
 
 // Parent class having virtual
 // function disp()
-class Parent {
+class Parent
+{
 public:
 	// Create virtual function
 	virtual void disp()
 	{
 		cout << "This is the public disp"
-			<< " method of Parent class" << endl;
+			 << " method of Parent class" << endl;
 	}
 };
 
 // Child class inherit to parent class
-class Child : public Parent {
+class Child : public Parent
+{
 private:
 	int secret_key;
 
@@ -25,10 +27,10 @@ private:
 	void disp()
 	{
 		cout << "This is the private disp "
-			<< "method of child class "
-			<< endl;
+			 << "method of child class "
+			 << endl;
 		cout << "The key is "
-			<< secret_key << endl;
+			 << secret_key << endl;
 	}
 
 public:
@@ -43,10 +45,9 @@ int main()
 	Child child(1019);
 
 	// Upcasting
-	Parent* obj = &child;
+	Parent *obj = &child;
 
 	// Function call of child class
 	obj->disp();
 	return 0;
 }
-

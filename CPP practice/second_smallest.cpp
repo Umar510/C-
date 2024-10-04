@@ -5,17 +5,17 @@ int main()
 {
     int a, b, c;
     cout << "Enter a b and c ";
-    cin >> a >> b >> c; 
-    cout<<"To find second smallest..."<<endl;
-    if (a < b)          
+    cin >> a >> b >> c;
+    cout << "To find second smallest..." << endl;
+    if (a < b)
     {
-        if (a < c) 
+        if (a < c)
         {
-            if (c < b) 
+            if (c < b)
             {
                 cout << "c= " << c << " is Second smallest " << endl;
             }
-            else 
+            else
             {
                 cout << "b= " << b << " is Second smallest " << endl;
             }
@@ -25,7 +25,7 @@ int main()
             cout << "a= " << a << " is Second smallest" << endl;
         }
     }
-    else 
+    else
     {
         if (b < c)
         {
@@ -43,20 +43,17 @@ int main()
             cout << "b= " << b << " is Second smallest " << endl;
         }
     }
-    
-    
-    	cout<<"Using Conditional Operator"<<endl;
-	
-	//Second Largest
-	cout<<"To find Second Largest..."<<endl;
-	if (a > b)          // 1<2
+    cout << "Using Conditional Operator" << endl;
+
+    // Second Largest
+    cout << "To find Second Largest..." << endl;
+    if (a > b) // 1<2
     {
         if (a > c) // 1<5
         {
             if (c > b) // 5<2
             {
-            	cout << "c= " << c << " is Second largest " << endl;
-
+                cout << "c= " << c << " is Second largest " << endl;
             }
             else // 2<5
             {
@@ -78,8 +75,7 @@ int main()
             }
             else
             {
-            	cout << "a= " << a << " is Second largest " << endl;
-
+                cout << "a= " << a << " is Second largest " << endl;
             }
         }
         else

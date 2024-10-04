@@ -23,13 +23,25 @@ int main()
     }
     else
     {
-        if (b > c)
+        // if (b > c)
+        // {
+        //     cout << "line-28 Largest number is  : " << b << endl;
+        // }
+        // else
+        // {
+        //     cout << "line-32 Largest number is  : " << c << endl;
+        //     // if (c > a)
+        //     // {
+        //     // cout << "line-34 Largest number is  : " << c << endl;
+        //     // }
+        // }
+        if (b < c)
         {
-            cout << "line-28 Largest number is  : " << b << endl;
+            cout << "line-40 Largest number is  : " << c << endl;
         }
         else
         {
-            cout << "line-32 Largest number is  : " << c << endl;
+            cout << "line-43 Largest number is  : " << b << endl;
             // if (c > a)
             // {
             // cout << "line-34 Largest number is  : " << c << endl;
